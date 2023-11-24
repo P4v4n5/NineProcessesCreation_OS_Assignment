@@ -79,7 +79,7 @@ In summary, this code uses nested `fork()` calls to generate multiple child proc
 
 ### Outpt and Tree representation
 
-![Example Image](Output_hw1_screenshot.jpeg) <br> ![Example Image](Tree_rep.jpg)
+![Example Image](Output_hw1_screenshot.jpeg) | ![Example Image](Tree_rep.jpg)
 
 
 
