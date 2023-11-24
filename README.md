@@ -23,21 +23,6 @@ This C code demonstrates the creation of 9 child processes using the `fork()` sy
 
 In summary, this code uses nested `fork()` calls to generate multiple child processes, controlling the process count to ensure no parent process generates more than two child processes, as specified in the assignment. The code then displays the PIDs of all created processes and their parent processes.
 
-
-## Linux commands
-
-### Steps to run the above code </b>
-1. Make sure you have a 
-<b>Command to compile the java program.</b>
-```bash
-javac IntProducerConsumer.java
-```
-<b>Command to run the java program.</b>
-
-```bash
-java IntProducerConsumer <numOfConsumers> <totalValues> 
-```
-
 ### Running a C++ Program on Linux:
 
 #### 1. Check for Compiler Installation:
