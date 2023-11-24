@@ -1,5 +1,9 @@
 # NineProcessesCreation_OS_Assignment - COEN 283 HomeWork 1
 
+## Name: Pavan Kumar Srinivasulu <br> Student ID: 07700005991 <br> Email: psrinivasulu@scu.edu
+
+## Code Flow and Explanation <br>
+
 This C code demonstrates the creation of 9 child processes using the `fork()` system call in a Unix-like environment. Here's a breakdown of how the code works:
 
 1. **Header Files**: Includes necessary header files like `stdio.h`, `sys/wait.h`, and `unistd.h`.
@@ -18,3 +22,64 @@ This C code demonstrates the creation of 9 child processes using the `fork()` sy
 4. **Wait for Child Processes**: Uses `wait(NULL)` in a `while` loop to wait for each child process to terminate before the program itself terminates (`wait()` returns `-1` when no child processes are left to wait for).
 
 In summary, this code uses nested `fork()` calls to generate multiple child processes, controlling the process count to ensure no parent process generates more than two child processes, as specified in the assignment. The code then displays the PIDs of all created processes and their parent processes.
+
+
+## Linux commands
+
+### Steps to run the above code </b>
+1. Make sure you have a 
+<b>Command to compile the java program.</b>
+```bash
+javac IntProducerConsumer.java
+```
+<b>Command to run the java program.</b>
+
+```bash
+java IntProducerConsumer <numOfConsumers> <totalValues> 
+```
+
+### Running a C++ Program on Linux:
+
+#### 1. Check for Compiler Installation:
+- **Verify if `g++` is Installed**: Open a terminal and enter `g++ --version`. If installed, it will display the installed version. If not, you'll need to install the GNU Compiler Collection (GCC) to compile C++ code.
+
+#### 2. Install GCC (if not installed):
+- **Ubuntu/Debian**: Use `apt-get`:
+  ```bash
+  sudo apt-get update
+  sudo apt-get install g++
+  ```
+- **CentOS/Fedora**: Use `yum`:
+  ```bash
+  sudo yum update
+  sudo yum install gcc-c++
+  ```
+
+#### 3. Write Your C++ Code:
+- Use a text editor (e.g., `nano`, `vim`, `gedit`, `code`) to write your C++ code. Save it with the `.cpp` extension. For instance, `hello.cpp`.
+
+#### 4. Compile the Code:
+- **Open Terminal**: Navigate to the directory containing your `hello.cpp` file.
+- **Compile using g++**:
+  ```bash
+  g++ -o output_file_name source_file_name.cpp
+  ```
+  Replace `output_file_name` with a desired name for the compiled executable and `source_file_name.cpp` with your C++ file name.
+
+#### 5. Run the Executable:
+- **Execute the Compiled Program**:
+  ```bash
+  ./output_file_name
+  ```
+  Replace `output_file_name` with the name specified during compilation.
+
+#### 6. Confirm Execution:
+- You should now see the output of your C++ program in the terminal.
+
+### Important Notes:
+- Ensure the C++ file is saved with the `.cpp` extension.
+- Make sure you have necessary permissions to read, write, and execute files in the directory.
+- Resolve any errors or warnings that occur during compilation before running the executable.
+- Debug any issues that arise during execution, considering the terminal output and any error messages.
+
+Following these steps should allow you to compile and execute your C++ program on a Linux machine. Adjustments might be needed based on your specific Linux distribution and environment.
