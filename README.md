@@ -51,7 +51,7 @@ In summary, this code uses nested `fork()` calls to generate multiple child proc
   ```
   Replace `output_file_name` with a desired name for the compiled executable and `source_file_name.cpp` with your C++ file name.
   
-  here,<br>
+  here,
   ```bash
   g++ -o output_hw1 create_nine_processes.cpp
   ```
@@ -62,6 +62,11 @@ In summary, this code uses nested `fork()` calls to generate multiple child proc
   ./output_file_name
   ```
   Replace `output_file_name` with the name specified during compilation.
+
+  here,
+  ```bash
+  ./output_hw1
+  ```
 
 #### 6. Confirm Execution:
 - You should now see the output of your C++ program in the terminal.
