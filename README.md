@@ -77,3 +77,7 @@ In summary, this code uses nested `fork()` calls to generate multiple child proc
 - Resolve any errors or warnings that occur during compilation before running the executable.
 - Debug any issues that arise during execution, considering the terminal output and any error messages.
 
+### Outpt and Tree representation
+
+![Example Image](Output_hw1_screenshot) <br>
+
