@@ -2,7 +2,7 @@
 
 ## Name: Pavan Kumar Srinivasulu <br> Student ID: 07700005991 <br> Email: psrinivasulu@scu.edu
 
-## Code Flow and Explanation <br>
+### Code Flow and Explanation <br>
 
 This C code demonstrates the creation of 9 child processes using the `fork()` system call in a Unix-like environment. Here's a breakdown of how the code works:
 
