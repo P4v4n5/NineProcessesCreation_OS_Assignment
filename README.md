@@ -41,15 +41,20 @@ In summary, this code uses nested `fork()` calls to generate multiple child proc
   ```
 
 #### 3. Write Your C++ Code:
-- Use a text editor (e.g., `nano`, `vim`, `gedit`, `code`) to write your C++ code. Save it with the `.cpp` extension. For instance, `hello.cpp`.
+- Use a text editor (e.g., `nano`, `vim`, `gedit`, `code`) to write your C++ code. Save it with the `.cpp` extension. Here, `create_nine_processes.cpp`.
 
 #### 4. Compile the Code:
-- **Open Terminal**: Navigate to the directory containing your `hello.cpp` file.
+- **Open Terminal**: Navigate to the directory containing your `create_nine_processes.cpp` file.
 - **Compile using g++**:
   ```bash
   g++ -o output_file_name source_file_name.cpp
   ```
   Replace `output_file_name` with a desired name for the compiled executable and `source_file_name.cpp` with your C++ file name.
+  
+  here,<br>
+  ```bash
+  g++ -o output_hw1 create_nine_processes.cpp
+  ```
 
 #### 5. Run the Executable:
 - **Execute the Compiled Program**:
@@ -67,4 +72,3 @@ In summary, this code uses nested `fork()` calls to generate multiple child proc
 - Resolve any errors or warnings that occur during compilation before running the executable.
 - Debug any issues that arise during execution, considering the terminal output and any error messages.
 
-Following these steps should allow you to compile and execute your C++ program on a Linux machine. Adjustments might be needed based on your specific Linux distribution and environment.
