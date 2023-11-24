@@ -71,7 +71,7 @@ In summary, this code uses nested `fork()` calls to generate multiple child proc
 #### 6. Confirm Execution:
 - You should now see the output of your C++ program in the terminal.
 
-### Important Notes:
+#### 7. Important Notes:
 - Ensure the C++ file is saved with the `.cpp` extension.
 - Make sure you have necessary permissions to read, write, and execute files in the directory.
 - Resolve any errors or warnings that occur during compilation before running the executable.
