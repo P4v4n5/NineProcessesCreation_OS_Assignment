@@ -1,6 +1,6 @@
 # NineProcessesCreation_OS_Assignment - COEN 283 HomeWork 1
 
-This C code demonstrates the creation of multiple child processes using the `fork()` system call in a Unix-like environment. Here's a breakdown of how the code works:
+This C code demonstrates the creation of 9 child processes using the `fork()` system call in a Unix-like environment. Here's a breakdown of how the code works:
 
 1. **Header Files**: Includes necessary header files like `stdio.h`, `sys/wait.h`, and `unistd.h`.
 
